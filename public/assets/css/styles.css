@@ -3,6 +3,24 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-image: url(../images/notepad-3297994_640.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
 }
 
 .save-note {
@@ -28,13 +46,14 @@ body {
   resize: none;
   height: calc(100% - 63px);
   padding-top: 15px;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .note-title {
   height: 50px;
   margin-top: 13px;
-  font-size: 3.5rem;
+  font-size: 3rem;
+  color: cornflowerblue;
 }
 
 .note-title:read-only,
@@ -47,6 +66,24 @@ body {
   border-bottom: none;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
+  background-image: url(../images/notepad-3297994_640.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
 }
 
 .list-container {
@@ -62,7 +99,8 @@ body {
 }
 
 .list-container i {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  color: #04ef2d;
   cursor: pointer;
 }
 
@@ -71,14 +109,62 @@ body {
   border-right: none;
   padding: 20px;
   cursor: pointer;
+  font-size: 1.2rem;
 }
 
 #editor-container {
   height: 375px;
 }
 
+.navbar-dark .navbar-brand {
+  color: #04ef2d;
+}
+
 .navbar-brand-text {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3.5rem;
+  color: lightgreen;
+}
+
+.navbar-bgimg {
+  background-image: url(../images/notepad-3297994_640.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+.navbar-bgimg-landing {
+  background-image: url(../images/notepad-3297994_640.jpg);
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
 }

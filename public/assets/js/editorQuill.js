@@ -1,4 +1,4 @@
-var container = document.getElementById('editor');
+// var container = document.getElementById('editor');
 // var editor = new Quill(container);
 //var container = $('.editor').get(0);
 
