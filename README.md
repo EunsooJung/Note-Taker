@@ -2,7 +2,7 @@
 
 Created an application that can be used to write, save, and delete notes. This application use an express backend and save and retrieve note data from a JSON file.
 
-- [Applied to Heroku](https://polar-anchorage-14528.herokuapp.com/)
+- [Note Taker Demo: https://polar-anchorage-14528.herokuapp.com/](https://polar-anchorage-14528.herokuapp.com/)
 
 - [Applied to My Reponsive Portfolio](https://eunsoojung.github.io/Responsive-Portfolio/portfolio.html)
 
@@ -20,7 +20,7 @@ node server.js
 
 ## Preview
 
-[![Note-Taker](https://github.com/EunsooJung/Developer-Profile-Generator/blob/master/assets/09-Dev-Profile-Gen-Preview.gif)](https://github.com/EunsooJung/Developer-Profile-Generator/blob/master/assets/09-Dev-Profile-Gen-Preview.gif)
+[![Note-Taker](https://github.com/EunsooJung/Note-Taker/blob/master/public/assets/images/Note%20Taker.gif)](https://github.com/EunsooJung/Note-Taker/blob/master/public/assets/images/Note%20Taker.gif)
 
 ## Usage
 
@@ -29,8 +29,6 @@ node server.js
 To get Note Taker, after downloading, you need to make sure Git Bash terminal open and looking at the correct folder. When you are within the correct location, you may type the following commands to ask her for information:
 
 - node server.js
-
-[![Start-Note-Taker-Server](https://github.com/EunsooJung/Developer-Profile-Generator/blob/master/assets/09-Dev-Profile-Gen-Preview.gif)](https://github.com/EunsooJung/Developer-Profile-Generator/blob/master/assets/09-Dev-Profile-Gen-Preview.gif)
 
 ### Guidelines:
 
@@ -51,7 +49,8 @@ The user will be use to write, save, and delete notes.
 ### Code Snippet
 
 - Project structure
-  [![Start-Note-Taker-Server](https://github.com/EunsooJung/Developer-Profile-Generator/blob/master/assets/09-Dev-Profile-Gen-Preview.gif)](https://github.com/EunsooJung/Developer-Profile-Generator/blob/master/assets/09-Dev-Profile-Gen-Preview.gif)
+
+  [![Note-Taker](https://github.com/EunsooJung/Note-Taker/blob/master/public/assets/images/ProjectStructure.png)](https://github.com/EunsooJung/Note-Taker/blob/master/public/assets/images/ProjectStructure.png)
 
 - Routes:
   1. public/assets/js/index.js: UI logic controller
@@ -136,7 +135,7 @@ var handleNoteDelete = function(event) {
 
 * [Note Taker: Demo](https://polar-anchorage-14528.herokuapp.com/notes)
 * [My Portfolio](https://eunsoojung.github.io/Responsive-Portfolio/portfolio.html)
-* [Link to Github](https://github.com/)
+* [Link to Github](https://github.com/EunsooJung/Note-Taker)
 * [Link to LinkedIn](www.linkedin.com/in/eun-soo-jung/)
 
 ## License
