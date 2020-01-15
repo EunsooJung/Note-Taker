@@ -88,6 +88,7 @@ body {
 
 .list-container {
   padding-left: 0;
+  margin-top: 210px;
 }
 
 .list-container .list-group,
@@ -167,4 +168,9 @@ body {
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #464646;
+}
+
+.note-con {
+  margin-top: 210px;
+  margin-left: 200px;
 }
